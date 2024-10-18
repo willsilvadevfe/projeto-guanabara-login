@@ -1,11 +1,16 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); /*Roboto*/
+
+
 *{
     margin: 0px;
     padding: 0px;
 }
 
 body{
+    background-color: #5F2C82;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     width: 100vw;
     height: 100vh;
 }
@@ -16,16 +21,100 @@ body{
     background-image: url(../imagens/tela3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.568);
 }
 
 #container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    
+    justify-content: center;
+    width: 300px;
+    margin: auto;
+   
 }
 
 .form-login{
     width: 300px;
+    background-color: white;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.568);
 }
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p{
+    font-size: 0.9em;
+    padding: 0px 15px 0px 15px;
+    margin-bottom: 10px;
+}
+
+#senha{
+    width: 230px;
+    height: 40px;
+    margin-bottom: 40px;
+    margin-top: 4px;
+    border: 2px solid #A4CFCE;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #286e6d;
+}
+
+#entrar{
+    width: 230px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: #49b6b4;
+    color: white;
+    font-size: 1em;
+    border-radius: 5px;
+    border: none;
+}
+
+#user{
+    width: 200px;
+    height: 25px;
+    padding-top: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+#password{
+    width: 210px;
+    height: 20px;
+    padding-top: 10px;
+}
+
+.material-symbols-outlined{
+    width: 30px;
+    color: white;
+    padding-top: 5px;
+    
+    
+}
+
+.youremail{
+    display: inline;
+    padding: 15px 3px 6px 10px;
+    width: 300px;
+    background-color: #5F2C82;
+    border-radius: 10px;
+    
+}
+
+.yourpassword{
+   
+        margin-top: 40px;
+    }
+
