@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color: #5F2C82;
+    background-image: linear-gradient(#5E2E82, #4C939A);
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     width: 100vw;
     height: 100vh;
@@ -80,6 +80,7 @@ p{
     font-size: 1em;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
 }
 
 #user{
@@ -131,5 +132,50 @@ p{
     background-color: #5F2C82;
     border-radius: 10px;
         
-    }
+}
+
+  .cube {
+    transition: all 0.4s;
+    transform-style: preserve-3d;
+    width: 200px;
+    height: 20px;
+    
+  }
+  
+  .button-icon:hover {
+    border-color: 5F2C82;
+  }
+  
+  .button-icon:hover .cube {
+    transform: rotateX(90deg);
+  }
+  
+  .side {
+    position: absolute;
+    height: 40px;
+    width: 230px;
+    margin-top: 8px;
+    margin-left: 20px;
+    display: flex;
+    font-size: 1em;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .top {
+    background: #5F2C82;
+    color: #ffffff;
+    transform: rotateX(-90deg) translate3d(0, 15px, 1em);
+  }
+  
+  .front {
+    background: #49b6b4;
+    color: #ffffff;
+    transform: translate3d(0, 0, 1em);
+  }
+  
 
