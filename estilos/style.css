@@ -118,7 +118,7 @@ p{
 
 .youremail{
     display: inline;
-    padding: 17px 3px 6.5px 10px;
+    padding: 17px 3px 7px 10px;
     width: 300px;
     background-color: #5F2C82;
     border-radius: 10px;
@@ -127,7 +127,7 @@ p{
 
 .yourpassword{
     display: inline;
-    padding: 17px 3px 6.5px 10px;
+    padding: 17px 3px 7px 10px;
     width: 300px;
     background-color: #5F2C82;
     border-radius: 10px;
@@ -135,8 +135,8 @@ p{
 }
 
   .cube {
-    transition: all 0.4s;
-    transform-style: preserve-3d;
+    transition: all 0.2s;
+    transform-style:preserve-3d;
     width: 200px;
     height: 20px;
     
@@ -148,6 +148,7 @@ p{
   
   .button-icon:hover .cube {
     transform: rotateX(90deg);
+    
   }
   
   .side {
@@ -173,8 +174,9 @@ p{
   }
   
   .front {
-    background: #49b6b4;
-    color: #ffffff;
+    background: #ffffff;
+    border: 1px solid #49b6b4;
+    color: #4e4c4c;
     transform: translate3d(0, 0, 1em);
   }
   
