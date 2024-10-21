@@ -20,6 +20,55 @@
 
     .form-login{
         width: 450px;
+        height: 280px;
+        border-radius: 0px 15px 15px 0px; 
+    }
+
+    .background-login{
+        width: 250px;
+        height: 280px;
+        border-radius: 15px 0px 0px 15px;
+       
+    }
+
+    p{
+        text-align: center;
+    }
+
+    #password{
+        width: 350px;
+        
+    }
+
+    #user{
+        width: 350px;
+        
+    }
+
+    #entrar{
+        width: 395px;
+    }
+
+    .side {
+        width: 395px;
+        margin-left: 27.8px;
+      }
+    
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body{
+        background-image: linear-gradient(#5E2E82, #4C939A);
+    }
+
+    #container{
+        display: flex;
+    }
+
+    .form-login{
+        width: 450px;
         height: 290px;
         border-radius: 0px 15px 15px 0px; 
     }
@@ -50,12 +99,6 @@
         width: 395px;
         margin-left: 27.8px;
       }
-    
-
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
 
 }
 
